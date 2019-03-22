@@ -1,0 +1,21 @@
+<?php
+return array (
+  'blocked' => '冻结',
+  'blocked_type' => '冻结类型',
+  'cancel' => '取消',
+  'comment' => '备注',
+  'commit-audit-failed' => '添加到审核列表失败',
+  'commit-wait-audit' => '提交成功,等待审核',
+  'data-not-exists' => ':data不存在',
+  'description' => '描述',
+  'failed' => '失败',
+  'illegal-request' => '非法请求',
+  'normal' => '正常',
+  'not-before' => '新账号尚未登录',
+  'ok' => '确认',
+  'same-with-password' => '新密码与旧密码一致',
+  'success' => '成功',
+  'successful_completion' => '操作成功',
+  'unblocked' => '解冻',
+  'user' => '用户',
+);

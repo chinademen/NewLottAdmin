@@ -1,0 +1,21 @@
+<?php
+return array (
+  'created_at' => 'created time',
+  'deposit_amount' => 'Deposit Amount',
+  'id' => 'ID',
+  'locked-failed' => 'Cannot Lock Account',
+  'missing-account' => 'Missing Account',
+  'the-touser-not-have-bankcard' => 'The Touser Not Have Bankcard',
+  'transfer-failed-add' => 'add money failed',
+  'transfer-failed-amount-error' => 'amount error',
+  'transfer-failed-amount-too-many' => 'Too Many Money',
+  'transfer-failed-not-children' => ':username is not your child.',
+  'transfer-failed-not-direct-children' => ':username is not your direct child.',
+  'transfer-failed-reduct' => 'Reduct failed',
+  'transfer-failed-to-self' => 'You can not transfer to yourself.',
+  'transfer-type-error' => 'Transfer type error',
+  'updated_at' => 'updated time',
+  'user_id' => 'user id',
+  'validate-bankinfo-fail-times' => 'validate bank info fail,you have :differ times to input',
+  'withdrawal_amount' => 'Withdraw Amount',
+);

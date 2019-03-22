@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * %note%
+ *
+ * @author %author%
+ */
+
+namespace App\Http\Controllers;
+
+
+class %controller% extends AdminBaseController {
+
+    protected $modelName = 'App\Models\%modelName%';
+
+    protected function beforeRender() {
+        parent::beforeRender();
+    }
+
+}

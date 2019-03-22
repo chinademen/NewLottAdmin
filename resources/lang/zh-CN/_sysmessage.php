@@ -1,0 +1,20 @@
+<?php
+return array (
+  'begin_date' => '开始时间',
+  'category' => '问题分类',
+  'created_at' => '创建时间',
+  'createtime' => '创建时间',
+  'detail' => '留言详情',
+  'district' => '地区',
+  'end_date' => '结束时间',
+  'id' => '编号',
+  'ip' => 'ip',
+  'name' => '姓名',
+  'platform' => '平台',
+  'role' => '角色',
+  'score' => '评分',
+  'status' => '状态',
+  'times' => '时长',
+  'title' => '标题',
+  'Token' => 'Token',
+);

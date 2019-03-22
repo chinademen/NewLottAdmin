@@ -1,0 +1,21 @@
+<?php
+return array (
+  'batch-failed' => '批量操作失败',
+  'batch-success' => '批量操作成功',
+  'created_at' => '创建时间',
+  'group-error' => '玩法组错误',
+  'group_id' => '玩法组',
+  'id' => 'ID',
+  'is_del' => '是否删除',
+  'lottery-error' => '彩种错误',
+  'lottery_id' => '彩种',
+  'merchant-error' => '商户错误',
+  'merchant_id' => '商户',
+  'prize' => '投注金额',
+  'prize-error' => '金额错误',
+  'series-error' => '系列错误',
+  'series_id' => '系列',
+  'series_way-error' => '系列投注方式错误',
+  'series_way_id' => '系列投注方式',
+  'updated_at' => '更新时间',
+);

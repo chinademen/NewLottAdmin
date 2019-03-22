@@ -1,0 +1,107 @@
+body {
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #111111;
+    background-color: #f0f2f5;
+}
+
+.text-red {
+    color: #f00;
+}
+
+.text-green {
+    color: #449614;
+}
+
+.text-weight {
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+th,td {
+    vertical-align: middle;
+    padding: 5px 15px;
+}
+
+#data_list tbody tr:nth-of-type(even) {
+    background-color: #d6d8da;
+}
+
+#data_list tbody tr:hover {
+    background-color: #c6f4e1;
+}
+
+#data_list th {
+    background-color: rgba(67, 74, 84, 0.7);
+    color: #fff;
+}
+
+#data_list .tr-bg {
+    background-color: #0299e0 !important;
+}
+
+#data_list a, .btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 2px 6px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#data_list a:focus, .btn:focus,
+#data_list a:active:focus, .btn:active:focus,
+#data_list a.active:focus, .btn.active:focus,
+#data_list a.focus, .btn.focus,
+#data_list a:active.focus, .btn:active.focus,
+#data_list a.active.focus, .btn.active.focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+#data_list a .btn-success, .btn-success {
+    color: #ffffff;
+    background-color: #1abc7a;
+    border-color: #14905d;
+    border-bottom: 2px solid #10794e;
+    margin-right:  5px;
+}
+
+#data_list a .btn-default, .btn-default {
+    color: #111111;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-bottom: 2px solid #bfbfbf;
+    margin-right:  5px;
+}
+#data_list a .btn-default,  .btn-danger{margin-right:  5px;}
+
+
+#container {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}

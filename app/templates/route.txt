@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * %note%
+ */
+$sUrlDir = '%url%';
+Route::group(['prefix' => $sUrlDir], function () {
+
+    $sResource = '%resource%';
+    $sController = '%controller%';
+%actionRoutes%
+});

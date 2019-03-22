@@ -1,0 +1,95 @@
+<?php
+
+/**
+ * %note%
+ *
+ * @author %author%
+ */
+
+namespace App\Models;
+
+class %modelName% extends BaseModel {
+    protected $connection = 'mysql';
+    protected $table = '%tableName%';
+
+    protected static $cacheUseParentClass = false;
+
+    protected static $cacheLevel = %cache_level%;
+
+    protected static $cacheMinutes = 0;
+
+    protected $fillable = %fillable%;
+
+    public static $sequencable = false;
+
+    public static $enabledBatchAction = false;
+
+    protected $validatorMessages = [];
+
+    protected $isAdmin = true;
+
+    public static $resourceName = '%modelName%';
+
+    protected $softDelete = false;
+
+    protected $defaultColumns = [ '*' ];
+
+    protected $hidden = [];
+
+    protected $visible = [];
+
+    public static $treeable = '%treeable%';
+
+    public static $foreFatherIDColumn = '';
+
+    public static $foreFatherColumn = '';
+
+    public static $columnForList = %columnsForList%;
+
+    public static $totalColumns = [];
+
+    public static $totalRateColumns = [];
+
+    public static $weightFields = [];
+
+    public static $classGradeFields = [];
+
+    public static $floatDisplayFields = [];
+
+    public static $noOrderByColumns = [];
+
+    public static $ignoreColumnsInView = %ignoreColumnsInView%;
+
+    public static $ignoreColumnsInEdit = %ignoreColumnsInEdit%;
+
+    public static $ignoreColumnsInCreate = [];
+
+    public static $listColumnMaps = [];
+
+    public static $viewColumnMaps = [];
+
+    public static $htmlSelectColumns = [];
+
+    public static $htmlTextAreaColumns = [];
+
+    public static $htmlNumberColumns = [];
+
+    public static $htmlOriginalNumberColumns = [];
+
+    public static $amountAccuracy = 0;
+
+    public static $originalColumns;
+
+    public $orderColumns = [];
+
+    public static $titleColumn = '%titleColumn%';
+
+    public static $mainParamColumn = '%mainParamColumn%';
+
+    public static $rules = %rules%;
+
+    protected function beforeValidate() {
+        return parent::beforeValidate();
+    }
+
+}

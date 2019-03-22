@@ -1,0 +1,20 @@
+<?php
+return array (
+  'card_type' => '卡类型',
+  'code_length' => '卡号长度',
+  'deposit_notice' => '充值说明事项',
+  'fee_expressions' => '手续费计算公式',
+  'fee_switch' => '手续费开关',
+  'fee_valve' => '手续费返还阀值',
+  'help_url' => '充值帮助链接',
+  'identifier' => '银行代号',
+  'logo' => '银行logo',
+  'max_load' => '最高充值金额',
+  'min_load' => '最低充值金额',
+  'mode' => '工作模式',
+  'name' => '银行名称',
+  'notice' => '银行说明信息',
+  'sequence' => '排序',
+  'status' => '银行状态',
+  'url' => '银行网银地址',
+);
